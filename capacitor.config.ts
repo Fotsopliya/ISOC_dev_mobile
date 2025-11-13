@@ -3,8 +3,8 @@ import type { CapacitorConfig } from '@capacitor/cli';
 const isDev = process.env.NODE_ENV === 'development';
 
 const config: CapacitorConfig = {
-  appId: 'com.snapgram.app',
-  appName: 'snapgram',
+  appId: 'com.pliyagram.app',
+  appName: 'pliyagram',
   webDir: 'dist',
   ...(isDev && {
     server: {

@@ -28,12 +28,13 @@ const LeftSidebar = () => {
     <nav className="leftsidebar">
       <div className="flex flex-col gap-11">
         <Link to="/" className="flex gap-3 items-center">
-          <img
+          {/* <img
             src="/assets/images/logo.svg"
             alt="logo"
             width={170}
             height={36}
-          />
+          /> */}
+          <span className="text-3xl font-bold bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 text-transparent">PLIYAGRAM</span>
         </Link>
 
         {isLoading || !user.email ? (
@@ -61,18 +62,16 @@ const LeftSidebar = () => {
             return (
               <li
                 key={link.label}
-                className={`leftsidebar-link group ${
-                  isActive && "bg-primary-500"
-                }`}>
+                className={`leftsidebar-link group ${isActive && "bg-primary-500"
+                  }`}>
                 <NavLink
                   to={link.route}
                   className="flex gap-4 items-center p-4">
                   <img
                     src={link.imgURL}
                     alt={link.label}
-                    className={`group-hover:invert-white ${
-                      isActive && "invert-white"
-                    }`}
+                    className={`group-hover:invert-white ${isActive && "invert-white"
+                      }`}
                   />
                   {link.label}
                 </NavLink>

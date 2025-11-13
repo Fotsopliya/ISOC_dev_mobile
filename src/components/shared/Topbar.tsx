@@ -18,12 +18,13 @@ const Topbar = () => {
     <section className="topbar">
       <div className="flex-between py-4 px-5">
         <Link to="/" className="flex gap-3 items-center">
-          <img
+          {/* <img
             src="/assets/images/logo.svg"
             alt="logo"
             width={130}
             height={325}
-          />
+          /> */}
+          <span className="text-2xl font-bold bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 text-transparent">PLIYAGRAM</span>
         </Link>
 
         <div className="flex gap-4">

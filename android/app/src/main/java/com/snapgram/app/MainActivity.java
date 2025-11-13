@@ -1,4 +1,4 @@
-package com.snapgram.app;
+package com.pliyagram.app;
 
 import com.getcapacitor.BridgeActivity;
 

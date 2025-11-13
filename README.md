@@ -1,5 +1,5 @@
 <div align="center">
-  <h3 align="center">SnapGram - A Modern Social Media App</h3>
+  <h3 align="center">PLIYAGRAM - A Modern Social Media App</h3>
   <p align="center">
     A full-stack social media application with web and mobile support built with React, Capacitor, and Appwrite.
   </p>
@@ -16,7 +16,7 @@
 
 ## 🤖 Introduction
 
-SnapGram is a modern social media platform that allows users to share moments, connect with friends, and explore content. Built with a focus on performance and user experience, it offers a responsive design that works seamlessly across web and mobile platforms.
+PLIYAGRAM is a modern social media platform that allows users to share moments, connect with friends, and explore content. Built with a focus on performance and user experience, it offers a responsive design that works seamlessly across web and mobile platforms.
 
 Key aspects:
 - 🖥️ **Progressive Web App** with offline capabilities
@@ -173,8 +173,8 @@ Edit `capacitor.config.ts` to configure app settings like app ID and name:
 
 ```typescript
 const config: CapacitorConfig = {
-  appId: 'com.snapgram.app',
-  appName: 'snapgram',
+  appId: 'com.pliyagram.app',
+  appName: 'pliyagram',
   webDir: 'dist',
   // ... other options
 };
