@@ -13,7 +13,6 @@
 4. [🚀 Quick Start](#quick-start)
 5. [📱 Mobile Development](#mobile-development)
 6. [🔧 Configuration](#configuration)
-7. [📄 License](#license)
 
 ## 🤖 Introduction
 
